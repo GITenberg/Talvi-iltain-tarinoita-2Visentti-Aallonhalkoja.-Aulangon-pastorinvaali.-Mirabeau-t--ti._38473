@@ -1,0 +1,53 @@
+_repo: Talvi-iltain-tarinoita-2Visentti-Aallonhalkoja.-Aulangon-pastorinvaali.-Mirabeau-t--ti._38473
+_version: 0.1.0
+contributor:
+  translators:
+  - agent_name: Suppanen, Aatto
+    aliases:
+    - Suppanen, Adolf
+    - Aatto S.
+    birthdate: 1855
+    deathdate: &id001 1898
+    gutenberg_agent_id: '6674'
+    url: http://www.gutenberg.org/2009/agents/6674
+    wikipedia: http://fi.wikipedia.org/wiki/Aatto_Suppanen
+  - agent_name: Jäämaa, Ilmari
+    aliases:
+    - Ilmari Jäämaa
+    - Jaamaa, Ilmari
+    gutenberg_agent_id: '39420'
+    url: http://www.gutenberg.org/2009/agents/39420
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Topelius, Zacharias
+    aliases:
+    - Topelius, Sakarias
+    - Topelius, Zakris
+    - Topelius, Zachris
+    - Topelius, Zakarias
+    birthdate: 1818
+    deathdate: *id001
+    gutenberg_agent_id: '6545'
+    url: http://www.gutenberg.org/2009/agents/6545
+    wikipedia:
+    - http://en.wikipedia.org/wiki/Zachris_Topelius
+    - http://fi.wikipedia.org/wiki/Zacharias_Topelius
+description: Translations of "Vincent Vågbrytaren", "Pastorsvalet i Aulango" and "Tant
+  Mirabeau".
+gutenberg_issued: '2012-01-02'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '38473'
+language: fi
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PT'
+- !lcsh 'Swedish fiction -- Translations into Finnish'
+title: "Talvi-iltain tarinoita 2\r\nVinsentti Aallonhalkoja. Aulangon pastorinvaali.\
+  \ Mirabeau täti."
+url: http://www.gutenberg.org/ebooks/38473
