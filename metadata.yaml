@@ -7,7 +7,7 @@ contributor:
     - Suppanen, Adolf
     - Aatto S.
     birthdate: 1855
-    deathdate: &id001 1898
+    deathdate: 1898
     gutenberg_agent_id: '6674'
     url: http://www.gutenberg.org/2009/agents/6674
     wikipedia: http://fi.wikipedia.org/wiki/Aatto_Suppanen
@@ -29,7 +29,7 @@ creator:
     - Topelius, Zachris
     - Topelius, Zakarias
     birthdate: 1818
-    deathdate: *id001
+    deathdate: 1898
     gutenberg_agent_id: '6545'
     url: http://www.gutenberg.org/2009/agents/6545
     wikipedia:
@@ -37,6 +37,8 @@ creator:
     - http://fi.wikipedia.org/wiki/Zacharias_Topelius
 description: Translations of "Vincent Vågbrytaren", "Pastorsvalet i Aulango" and "Tant
   Mirabeau".
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/38473#Talvi-iltain-tarinoita-2Visentti-Aallonhalkoja.-Aulangon-pastorinvaali.-Mirabeau-t--ti.
 gutenberg_issued: '2012-01-02'
 gutenberg_type: Text
 identifiers:
