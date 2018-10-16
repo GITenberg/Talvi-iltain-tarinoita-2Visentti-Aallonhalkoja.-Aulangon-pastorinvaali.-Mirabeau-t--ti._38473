@@ -1,178 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
 >
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/38473">
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-02</dcterms:issued>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/6674">
-        <pgterms:webpage rdf:resource="http://fi.wikipedia.org/wiki/Aatto_Suppanen"/>
-        <pgterms:alias>Suppanen, Adolf</pgterms:alias>
-        <pgterms:name>Suppanen, Aatto</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1855</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1898</pgterms:deathdate>
-        <pgterms:alias>Aatto S.</pgterms:alias>
+      <pgterms:agent rdf:about="2009/agents/39420">
+        <pgterms:alias>Jaamaa, Ilmari</pgterms:alias>
+        <pgterms:name>Jäämaa, Ilmari</pgterms:name>
+        <pgterms:alias>Ilmari Jäämaa</pgterms:alias>
       </pgterms:agent>
     </marcrel:trl>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Na8f3878e72cb4fcdb3020ed7a6ba9da5">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fi</rdf:value>
+    <dcterms:title>Talvi-iltain tarinoita 2&#13;
+Vinsentti Aallonhalkoja. Aulangon pastorinvaali. Mirabeau täti.</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N79a4eaf43d23480e9bdcad0042b64654">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Swedish fiction -- Translations into Finnish</rdf:value>
       </rdf:Description>
-    </dcterms:language>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</pgterms:downloads>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/6545">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Zacharias_Topelius"/>
-        <pgterms:name>Topelius, Zacharias</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1898</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1818</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://fi.wikipedia.org/wiki/Zacharias_Topelius"/>
-      </pgterms:agent>
-    </dcterms:creator>
+    </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:description>Translations of "Vincent Vågbrytaren", "Pastorsvalet i Aulango" and "Tant Mirabeau".</dcterms:description>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.txt.utf-8">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:50.762284</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1d6a99df43ec4b70bbca2a15a346f856">
+          <rdf:Description rdf:nodeID="N5d58c7337f4249a995a0b938dfe013ba">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">347257</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">793590</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T12:25:21.764293</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N515b38269e564201b4676423b8943f98">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">347257</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:50.498291</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nfd01fec413d34a06892df66e765298c3">
-        <rdf:value>Text</rdf:value>
+      <rdf:Description rdf:nodeID="Nc0e45d362ea948a79881d10147bea57a">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/39420">
-        <pgterms:alias>Ilmari Jäämaa</pgterms:alias>
-        <pgterms:name>Jäämaa, Ilmari</pgterms:name>
-        <pgterms:alias>Jaamaa, Ilmari</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:trl>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T12:25:53.619500</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na7883b72df184cf6950927a32878ab09">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">477684</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/38473/38473-8.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7423fd3c686848ada7c320e9b48362ca">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">758855</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T14:40:46</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1363658</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb31b5c5f567540a6b0716003b58b686c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T12:25:49.664694</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/38473/38473-8.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb3522889115649aabeb2ab781449eef3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N9c57e4cd72fc4957a85aaeaf9a524022">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T14:42:22</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf14c6cc67b6f4ad897d909982b9cdb92">
+          <rdf:Description rdf:nodeID="Nb38d76883ff04e1bab5c8a9056126689">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302641</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T14:42:22</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.html.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">853352</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T12:25:43.573152</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:48.983330</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">793590</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6af4cae7713047e286d425467b695bd0">
+          <rdf:Description rdf:nodeID="N72fb179adac2404ea9bd63cbe88cc29e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3a18000f08454965a467145ab2cb0cfd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:57.243189</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1380669</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ndcd10487afef494aa5fdb214ac76aad2">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PT</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:53.763236</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1380673</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2c9dc3b8031843a9b1bb62d7f6b7d9c3">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/38473/38473-8.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-07T14:40:46</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">758855</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8f81bd0ad61c4a4193fae38787fd5eab">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N7b7fb527bad74553a4aa35c7b8a4f28e">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fi</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/6674">
+        <pgterms:webpage rdf:resource="http://fi.wikipedia.org/wiki/Aatto_Suppanen"/>
+        <pgterms:alias>Suppanen, Adolf</pgterms:alias>
+        <pgterms:alias>Aatto S.</pgterms:alias>
+        <pgterms:name>Suppanen, Aatto</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1855</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1898</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">853113</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1f40346e3ad34d3b8ab77604a1d8d6f5">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>Talvi-iltain tarinoita 2
-Visentti Aallonhalkoja. Aulangon pastorinvaali. Mirabeau tÃ¤ti.</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc5e8e6a4e53c487197e2964cb13033e1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T12:25:44.253621</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">346690</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:49.936321</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">364648</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:57.323177</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5499d71bba9f4111911a5dcaf894687c">
+          <rdf:Description rdf:nodeID="Ncc07f204353c4e7b86da7a650206a59d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-06-08T12:25:22.137961</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12638</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/6545">
+        <pgterms:name>Topelius, Zacharias</pgterms:name>
+        <pgterms:alias>Topelius, Sakarias</pgterms:alias>
+        <pgterms:alias>Topelius, Zachris</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1898</pgterms:deathdate>
+        <pgterms:alias>Topelius, Zakarias</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1818</pgterms:birthdate>
+        <pgterms:alias>Topelius, Zakris</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Zachris_Topelius"/>
+        <pgterms:webpage rdf:resource="http://fi.wikipedia.org/wiki/Zacharias_Topelius"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-02</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38473.html.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">853113</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ned86cd2c44b9497a8f9a27c0ec8c5845">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:25:50.091305</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/38473"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
-  </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Zacharias_Topelius">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Zachris_Topelius">
     <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://fi.wikipedia.org/wiki/Zacharias_Topelius">
+  <rdf:Description rdf:about="http://fi.wikipedia.org/wiki/Aatto_Suppanen">
     <dcterms:description>fi.wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://fi.wikipedia.org/wiki/Aatto_Suppanen">
+  <rdf:Description rdf:about="http://fi.wikipedia.org/wiki/Zacharias_Topelius">
     <dcterms:description>fi.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
